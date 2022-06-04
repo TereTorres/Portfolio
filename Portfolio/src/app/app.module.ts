@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SobreMiComponent
   ],
   imports: [
     BrowserModule,
